@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+13414333485fddf74aa236e07d3aaadf ../qtDrawImageLineReg_zh_CN.ts
+3de4d5a9f8099170fa36a3cd58c3cb96 CMakeFiles/TSP_RPM_autogen
