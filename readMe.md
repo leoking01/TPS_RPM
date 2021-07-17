@@ -8,6 +8,6 @@ input:
 output:
 <img src=bin/data_result.png.modi.png   />
 
-
+<img src=eg_jcm0.gif   />
 
 
