@@ -151,9 +151,9 @@ bool rpm::estimate(
 		//}
 
 		while (T_cur >= T_end) {
-
-			//printf("T : %.2f\n\n", T_cur);
-			//printf("lambda : %.2f\n\n", lambda);
+            printf("T : %.2f, ", T_cur);
+            printf("lambda : %.2f\n", lambda);
+cout << " " <<   endl;
 
 			int iter = 0;
 

@@ -57,8 +57,11 @@ namespace data_visualize {
 
 	Mat visualize(const MatrixXd& X, const MatrixXd& Y, const bool draw_line = false);
 	void visualize(const string& file_name, const MatrixXd& X, const MatrixXd& Y, const bool draw_line = false);
-	void visualize_origin(const const string& file_name, const MatrixXd& X, const MatrixXd& Y,
-		const MatrixXd X_outlier, const MatrixXd& Y_outlier, const int grid_step = 20);
+//    void visualize_origin(const   string& file_name, const MatrixXd& X, const MatrixXd& Y,
+//		const MatrixXd X_outlier, const MatrixXd& Y_outlier, const int grid_step = 20);
+
+    void visualize_origin(const   string& file_name, const MatrixXd& X, const MatrixXd& Y,
+        const MatrixXd X_outlier, const MatrixXd& Y_outlier, const int grid_step = 20);
 
 	void visualize_result(const string& file_name, const MatrixXd X_outlier, const MatrixXd& Y_outlier, const rpm::ThinPlateSplineParams& params, const int grid_step = 20);
 
